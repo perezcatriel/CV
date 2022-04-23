@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+  background-color: var(--tres);
+}
+
+:root {
+	--uno: #c2c6ce;
+	--dos: #c0d0ef;
+	--tres: #668dc0;
+	--cuatro: #304a6e;
+	--cinco: #0f1c30;
+	--font-uno: "Oswald", sans-serif;
+	--font-dos: "Roboto", sans-serif;
+	--font-size-uno: 1rem;
+	--font-size-dos: 2rem;
+	--font-size-tres: 4rem;
+}
