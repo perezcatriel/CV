@@ -1,10 +1,7 @@
 nav {
   width:100vw;
 	height: 100vh;
-  margin: 60px auto;
-  display: flex;
-	flex-direction: column;
-  justify-content: center;
+  position: fixed;
 	display: none;
 }
 
@@ -20,7 +17,7 @@ a {
 	color: var(--uno);
 	text-decoration: none;
 	text-align: center;
-	font-size: var(--font-size-uno);
+	font-size: var(--font-subtitulo);
   letter-spacing: 1.5px;
 }
 

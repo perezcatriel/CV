@@ -25,7 +25,9 @@
  */
 	--font-uno: "Oswald", sans-serif;
 	--font-dos: "Roboto", sans-serif;
-	--font-size-uno: 1.5rem;
-	--font-size-dos: 2rem;
-	--font-size-tres: 4rem;
+	--font-titulo-grande: 70px;
+	--font-titulo-chico: 50px;
+	--font-subtitulo: 30px;
+	--font-parrafo: 20px;
+	--font-chico: 16px;
 }

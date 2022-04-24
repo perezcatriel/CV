@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .nombre img {
@@ -17,7 +17,7 @@
   letter-spacing: .5rem;
   color: var(--uno);
   text-shadow: 0 0 10px var(--cuatro);
-  font-size: var(--font-size-dos);
+  font-size: var(--font-subtitulo);
 }
 
 .nombre  h3 {
@@ -25,5 +25,5 @@
   letter-spacing: .25rem;
   color: var(--dos);
   text-shadow: 0 0 10px var(--cuatro);
-  font-size: var(--font-size-uno);
+  font-size: var(--font-parrafo);
 }
