@@ -1,7 +1,41 @@
 .proyectos {
-  margin-top: 20px;
+  margin: 40px 40px 0;
 }
 
-.proyectos article {
-  width: 80vw;
+.proyectos h3 {
+  font-family: var(--font-dos);
+  font-size: var(--font-size-uno);
+  font-weight: bold;
+  letter-spacing: .5rem;
+  color: var(--cuatro);
+  text-shadow: 0 0 5px var(--uno);
+}
+
+.proyectos-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.articulo {
+  margin: 10px 40px 0 0;
+  padding: 20px 20px;
+  border: 1px solid var(--dos);
+  border-radius: 10px;
+}
+
+.articulo h4 {
+  font-family: var(--font-dos);
+  font-size: var(--font-size-uno);
+  color: var(--uno);
+  width: 200px;
+  text-shadow: 0 0 5px var(--cinco);
+}
+
+.proyectos-container img {
+  margin: 10px 0;
+}
+
+figcaption {
+  font-family: var(--font-uno);
+  color: var(--cinco);
 }
