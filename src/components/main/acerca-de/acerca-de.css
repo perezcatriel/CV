@@ -1,0 +1,23 @@
+.acerca-de {
+	width: 80vw;
+	margin: auto;
+}
+
+.acerca-de h3 {
+	margin-top: 40px;
+	font-family: var(--font-dos);
+	font-weight: bold;
+	letter-spacing: 0.5rem;
+	color: var(--cuatro);
+	text-shadow: 0 0 5px var(--uno);
+	font-size: var(--font-size-uno);
+}
+
+.acerca-de p {
+	margin-top: 10px;
+	font-family: var(--font-uno);
+	color: var(--cinco);
+	font-size: var(--font-size-uno);
+	height: 200px;
+	overflow: scroll;
+}

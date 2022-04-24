@@ -1,24 +1,29 @@
 nav {
-  width:60vw;
-  margin: auto;
+  width:100vw;
+	height: 100vh;
+  margin: 60px auto;
   display: flex;
+	flex-direction: column;
   justify-content: center;
+	display: none;
 }
 
 ul {
-	display: flex;
 	list-style: none;
 	align-items: center;
-  padding: 10px 20px;
-  
 }
 
 li,
 a {
-	margin: 0 20px;
+	margin: 60px auto;
 	font-family: var(--font-uno);
 	color: var(--uno);
 	text-decoration: none;
+	text-align: center;
 	font-size: var(--font-size-uno);
   letter-spacing: 1.5px;
+}
+
+a:hover {
+	color: var(--cinco)
 }

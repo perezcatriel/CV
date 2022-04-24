@@ -5,14 +5,27 @@
 }
 
 :root {
-	--uno: #c2c6ce;
-	--dos: #c0d0ef;
-	--tres: #668dc0;
-	--cuatro: #304a6e;
-	--cinco: #0f1c30;
+/* 	--uno: #58094f;
+	--dos: #841e62;
+	--tres: #f3aa20;
+	--cuatro: #2a445e;
+	--cinco: #346b6d; */
+
+	--uno: #fcb86d;
+	--dos: #d8737f;
+	--tres: #ab6c82;
+	--cuatro: #685d79;
+	--cinco: #475c7a;
+
+	/* --uno: #462446;
+	--dos: #b05f6d;
+	--tres: #eb6b56;
+	--cuatro: #ffc153;
+	--cinco: #47b39d;
+ */
 	--font-uno: "Oswald", sans-serif;
 	--font-dos: "Roboto", sans-serif;
-	--font-size-uno: 1rem;
+	--font-size-uno: 1.5rem;
 	--font-size-dos: 2rem;
 	--font-size-tres: 4rem;
 }

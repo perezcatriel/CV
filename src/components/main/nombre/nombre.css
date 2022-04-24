@@ -1,0 +1,29 @@
+.nombre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.nombre img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.nombre  h2 {
+  font-family: var(--font-uno);
+  font-weight: bold;
+  letter-spacing: .5rem;
+  color: var(--uno);
+  text-shadow: 0 0 10px var(--cuatro);
+  font-size: var(--font-size-dos);
+}
+
+.nombre  h3 {
+  font-family: var(--font-dos);
+  letter-spacing: .25rem;
+  color: var(--dos);
+  text-shadow: 0 0 10px var(--cuatro);
+  font-size: var(--font-size-uno);
+}

@@ -5,16 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Document</title>
+  <title>Developer Web</title>
   
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="../src/components/header/Header.css">
   <link rel="stylesheet" href="../src/components/nav/nav.css">
+  <link rel="stylesheet" href="../src/components/main/nombre/nombre.css">
+  <link rel="stylesheet" href="../src/components/main/acerca-de/acerca-de.css">
+  <link rel="stylesheet" href="../src/components/main/proyectos/proyectos.css">
 
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@700&display=swap');
   </style>
 </head>
+
 <body>
   <header>
     <img src="../src/assets/images/terminal.png" class="logo"></img>
@@ -22,9 +26,8 @@
       DEVELOPER WEB
     </h1>
     <a href=""><img src="../src/assets/images/menu.png" alt="" class="menu"></a>
+    <div class="barra"></div>
   </header>
-
-  <div class="barra"></div>
 
   <nav>
     <ul>
@@ -35,15 +38,66 @@
   </nav>
 
   <main>
-    main
+    <section class="nombre">
+      <img src="../src/assets/images/person.png" alt="">
+      <h2>Catriel Pérez</h2>
+      <h3>Fullstack Web</h3>
+    </section>
+
+    <section class="acerca-de">
+      <h3>Acerca de</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores asperiores dolores aut neque ipsum accusamus odit nam corporis, atque sit obcaecati omnis placeat, similique provident quo, sunt eligendi officiis ducimus? Illum ut nostrum, tempora optio, repudiandae quos quam eos sed eius a voluptatibus obcaecati. Dolore quos rerum adipisci facere, aliquam fuga cumque non quaerat, ad illo architecto placeat nobis aspernatur et recusandae, hic inventore eaque consequuntur maxime voluptatibus commodi. Deserunt inventore facere sapiente autem veniam ut accusamus commodi architecto incidunt rerum eum, ipsam iure consequatur at voluptates quibusdam quod sit, quis sed doloremque ullam temporibus. Illum perspiciatis molestiae ipsam commodi, vel autem iste sint neque? Sequi, debitis, iste atque vitae ut facere consectetur delectus, soluta distinctio corporis optio esse earum enim quaerat tempore labore unde eveniet veritatis magni minus est maxime autem illo! Esse ipsum optio natus recusandae consectetur dolore!</p>
+    </section>
+
+    <section class="proyectos">
+      <h3>Proyectos</h3>
+      
+      <article>
+        <h4>Simon dice</h4>
+        <figure>
+          <img src="" alt="simon">
+          <figcaption>r/Argentina Programa - 2020</figcaption>
+        </figure>
+      </article>
+      
+      <article>
+        <h4>MemoTest</h4>
+        <figure>
+          <img src="" alt="MemoTest">
+          <figcaption>r/Argentina Programa - 2020</figcaption>
+        </figure>
+      </article>
+      
+      <article>
+        <h4>Carta a Santa</h4>
+        <figure>
+          <img src="" alt="Carta a Santa">
+          <figcaption>r/Argentina Programa - 2020</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section>
+      educacion
+    </section>
   </main>
 
   <aside>
-    aside
+    <section>
+      skill
+    </section>
+
+    <section>
+      hobbies
+    </section>
+
+<section>
+  contactos
+</section>
   </aside>
 
   <footer>
-    footer
+    contactos
   </footer>
 
   <script src="../index.js"></script>
