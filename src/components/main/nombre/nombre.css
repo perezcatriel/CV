@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 130px;
+  position: sticky;
+  top: 0px;
 }
 
 .nombre img {
@@ -26,4 +28,6 @@
   color: var(--dos);
   text-shadow: 0 0 10px var(--cuatro);
   font-size: var(--font-parrafo);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--dos);
 }
