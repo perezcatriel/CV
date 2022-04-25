@@ -17,12 +17,12 @@
 	--cuatro: #685d79;
 	--cinco: #475c7a;
 
-	/* --uno: #462446;
-	--dos: #b05f6d;
-	--tres: #eb6b56;
-	--cuatro: #ffc153;
-	--cinco: #47b39d;
- */
+	--once: #462446;
+	--doce: #b05f6d;
+	--trece: #eb6b56;
+	--catorce: #ffc153;
+	--quince: #47b39d;
+
 	--font-uno: "Oswald", sans-serif;
 	--font-dos: "Roboto", sans-serif;
 	--font-titulo-grande: 70px;
@@ -30,4 +30,15 @@
 	--font-subtitulo: 30px;
 	--font-parrafo: 20px;
 	--font-chico: 16px;
+}
+
+@media (min-width: 700px) {
+	* {
+		background-color: var(--trece);
+	}
+
+	aside {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
 }

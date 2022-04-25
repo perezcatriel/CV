@@ -31,3 +31,32 @@
   padding-bottom: 10px;
   border-bottom: 1px solid var(--dos);
 }
+
+@media (min-width:700px) {
+  .nombre {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -60px;
+  }
+
+  .nombre img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .nombre-especialidad h2 {
+    font-size: var(--font-titulo-chico);
+    color: var(--once);
+    text-shadow: 0 0 10px var(--catorce);
+  }
+
+  .nombre-especialidad h3 {
+    font-size: var(--font-subtitulo);
+    text-align: center;
+    color: var(--catorce);
+    text-shadow: 0 0 10px var(--doce);
+    border-bottom: 1px solid var(--quince);
+  }
+}

@@ -29,10 +29,30 @@ h1 {
   height: 50px;
 }
 
-/* .barra {
-  display: block;
-  background-color: var(--cinco);
-  height: 1px;
-  width: 60vw;
-  margin: 70px auto;
-} */
+
+@media (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+  }
+
+  header .logo {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+  }
+
+  h1 {
+    color: var(--quince);
+    text-shadow: 0 0 10px var(--once);
+  }
+
+  header .menu {
+    position:initial;
+    width: 60px;
+    height:60px;
+  }
+}

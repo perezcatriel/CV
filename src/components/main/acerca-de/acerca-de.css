@@ -21,3 +21,17 @@
 	height: 200px;
 	overflow: auto;
 }
+
+@media (min-width: 700px) {
+	.acerca-de h3 {
+		text-align: center;
+		color: var(--quince);
+		text-shadow: 0 0 10px var(--once);
+		font-size: var(--font-titulo-chico);
+	}
+
+	.acerca-de p {
+		color: var(--once);
+		font-size: var(--font-parrafo);
+	}
+}

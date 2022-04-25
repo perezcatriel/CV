@@ -41,3 +41,26 @@
   color: var(--cinco);
   font-size: var(font-chico);
 }
+
+@media (min-width: 700px) {
+  .articulo {
+    box-shadow:  0 0 10px var(--once);
+  }
+
+  .proyectos h3 {
+		text-align: center;
+		color: var(--quince);
+		text-shadow: 0 0 10px var(--once);
+		font-size: var(--font-titulo-chico);
+	}
+
+  .articulo h4 {
+    color: var(--catorce);
+    text-shadow: 0 0 10px var(--once);
+    font-size: var(--font-subtitulo);
+  }
+
+  .articulo figcaption {
+    color: var(--once);
+  }
+}

@@ -18,3 +18,16 @@
   text-shadow: 0 0 10px var(--cinco);
   cursor: pointer;
 }
+
+@media (min-width: 700px) {
+  .footer-contactos {
+    margin: auto;
+  }
+
+  .footer-contactos a {
+    font-size: var(--font-subtitulo);
+    margin-bottom: 40px;
+    color: var(--quince);
+    text-shadow: 0 0 10px var(--once);
+  }
+}

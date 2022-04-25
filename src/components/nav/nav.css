@@ -25,3 +25,24 @@ nav a {
 nav a:hover {
 	color: var(--cinco)
 }
+
+
+@media (min-width:700px) {
+	nav {
+		display: block;
+		position: initial;
+		margin: -110px auto 0;
+		width: 60vw;
+		height: auto;
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	nav a {
+		font-size: var(--font-parrafo);
+		color: var(--catorce);
+	}
+}

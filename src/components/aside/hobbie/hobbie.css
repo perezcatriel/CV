@@ -22,3 +22,17 @@
   color: var(--cinco);
   margin-top: 10px;
 }
+
+@media (min-width: 700px) {
+  .hobbies h3 {
+		color: var(--quince);
+		text-shadow: 0 0 10px var(--once);
+		font-size: var(--font-titulo-chico);
+	}
+
+  .hobbies li {
+    color: var(--catorce);
+    letter-spacing: .25rem;
+    margin-top: 30px;
+  }
+}

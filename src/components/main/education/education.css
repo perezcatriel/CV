@@ -48,3 +48,35 @@
   color: var(--cuatro);
   font-size: var(font-chico);
 }
+
+@media (min-width: 700px) {
+  .educacion {
+    box-shadow:  0 0 10px var(--once);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .education h3 {
+		text-align: center;
+		color: var(--quince);
+		text-shadow: 0 0 10px var(--once);
+		font-size: var(--font-titulo-chico);
+	}
+
+  .educacion h4 {
+    color: var(--catorce);
+    text-shadow: 0 0 10px var(--once);
+    font-size: var(--font-subtitulo);
+  }
+
+  .educacion p {
+    color: var(--once);
+    text-shadow: 0 0 10px var(--doce);
+  }
+
+  .educacion figcaption {
+    color: var(--once);
+  }
+}

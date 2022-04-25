@@ -23,7 +23,6 @@
 }
 
 .barra-progreso {
-  
   margin-top: 10px;
   background-color: var(--cuatro);
   width: 75vw;
@@ -64,4 +63,42 @@
   height: 16px;
   background-color: var(--dos);
   border-radius: 5px;
+}
+
+@media (min-width: 700px) {
+  .skills h3 {
+		color: var(--quince);
+		text-shadow: 0 0 10px var(--once);
+		font-size: var(--font-titulo-chico);
+	}
+
+  .skill h4 {
+    color: var(--catorce);
+    text-shadow: 0 0 10px var(--once);
+  }
+
+  .barra-progreso {
+    width: 40vw;
+    background-color: var(--doce);
+  }
+
+  #ingles {
+    background-color: var(--once);
+  }
+
+  #portugues {
+    background-color: var(--once);
+  }
+
+  #equipo {
+    background-color: var(--once);
+  }
+
+  #empatia {
+    background-color: var(--once);
+  }
+
+  #proactivo {
+    background-color: var(--once);
+  }
 }
