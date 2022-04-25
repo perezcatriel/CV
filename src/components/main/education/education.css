@@ -1,7 +1,5 @@
-
 .education {
   margin: 40px 40px 0;
-  
 }
 
 .education h3 {
@@ -45,7 +43,7 @@
   margin: 10px 0;
 }
 
-figcaption {
+.educacion figcaption {
   font-family: var(--font-uno);
   color: var(--cuatro);
   font-size: var(font-chico);

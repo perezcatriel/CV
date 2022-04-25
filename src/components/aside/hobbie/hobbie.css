@@ -1,0 +1,24 @@
+.hobbies {
+  margin: 40px 40px 0;
+}
+
+.hobbies h3 {
+  font-family: var(--font-dos);
+  font-size: var(--font-subtitulo);
+  font-weight: bold;
+  letter-spacing: .25rem;
+  color: var(--cuatro);
+  text-shadow: 0 0 5px var(--uno);
+}
+
+.hobbies ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.hobbies li {
+  font-family: var(--font-dos);
+  font-size: var(--font-chico);
+  color: var(--cinco);
+  margin-top: 10px;
+}

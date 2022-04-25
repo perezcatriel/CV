@@ -1,0 +1,21 @@
+.footer {
+  margin: 40px 40px 0;
+}
+
+.footer-contactos {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.footer-contactos a {
+  font-family: var(--font-dos);
+  font-size: var(--font-parrafo);
+  margin-right: 40px;
+  text-decoration: none;
+  color: var(--dos);
+  text-shadow: 0 0 10px var(--cinco);
+  cursor: pointer;
+ 
+}

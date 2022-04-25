@@ -19,5 +19,5 @@
 	color: var(--cinco);
 	font-size: var(--font-chico);
 	height: 200px;
-	overflow: scroll;
+	overflow: auto;
 }

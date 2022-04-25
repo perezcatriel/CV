@@ -5,13 +5,13 @@ nav {
 	display: none;
 }
 
-ul {
+nav ul {
 	list-style: none;
 	align-items: center;
 }
 
-li,
-a {
+nav li,
+nav a {
 	margin: 60px auto;
 	font-family: var(--font-uno);
 	color: var(--uno);
@@ -21,6 +21,6 @@ a {
   letter-spacing: 1.5px;
 }
 
-a:hover {
+nav a:hover {
 	color: var(--cinco)
 }

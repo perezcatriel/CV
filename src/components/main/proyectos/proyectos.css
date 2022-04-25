@@ -36,7 +36,7 @@
   margin: 10px 0;
 }
 
-figcaption {
+.proyectos figcaption {
   font-family: var(--font-uno);
   color: var(--cinco);
   font-size: var(font-chico);
