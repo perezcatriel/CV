@@ -5,12 +5,6 @@
 }
 
 :root {
-/* 	--uno: #58094f;
-	--dos: #841e62;
-	--tres: #f3aa20;
-	--cuatro: #2a445e;
-	--cinco: #346b6d; */
-
 	--uno: #fcb86d;
 	--dos: #d8737f;
 	--tres: #ab6c82;
@@ -23,6 +17,12 @@
 	--catorce: #ffc153;
 	--quince: #47b39d;
 
+	--ventiuno: #58094f;
+	--ventidos: #841e62;
+	--ventitres: #f3aa20;
+	--venticuatro: #2a445e;
+	--venticinco: #346b6d;
+
 	--font-uno: "Oswald", sans-serif;
 	--font-dos: "Roboto", sans-serif;
 	--font-titulo-grande: 70px;
@@ -32,6 +32,7 @@
 	--font-chico: 16px;
 }
 
+
 @media (min-width: 700px) {
 	* {
 		background-color: var(--trece);
@@ -40,5 +41,11 @@
 	aside {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 1200px) {
+	* {
+		background-color: var(--ventitres);
 	}
 }
