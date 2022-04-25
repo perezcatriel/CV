@@ -18,7 +18,7 @@
 
 .hobbies li {
   font-family: var(--font-dos);
-  font-size: var(--font-chico);
+  font-size: var(--font-parrafo);
   color: var(--cinco);
   margin-top: 10px;
 }

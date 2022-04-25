@@ -17,7 +17,7 @@
 	margin-top: 10px;
 	font-family: var(--font-uno);
 	color: var(--cinco);
-	font-size: var(--font-chico);
+	font-size: var(--font-parrafo);
 	height: 200px;
 	overflow: auto;
 }

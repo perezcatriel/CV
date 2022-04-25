@@ -3,6 +3,7 @@ nav {
 	height: 100vh;
   position: fixed;
 	display: none;
+	border-radius: 50%;
 }
 
 nav ul {
