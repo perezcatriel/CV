@@ -36,3 +36,15 @@
     margin-top: 30px;
   }
 }
+
+@media (min-width: 1200px) {
+  .hobbies h3 {
+		color: var(--venticuatro);
+		text-shadow: 0 0 10px var(--venticinco);
+		font-size: var(--font-titulo-chico);
+	}
+
+  .hobbies li {
+    color: var(--venticinco);
+  }
+}

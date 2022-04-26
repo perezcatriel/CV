@@ -11,6 +11,8 @@
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  border: 1px solid var(--uno);
+  box-shadow: 0 0 10px var(--cinco);
 }
 
 .nombre  h2 {
@@ -20,6 +22,7 @@
   color: var(--uno);
   text-shadow: 0 0 10px var(--cuatro);
   font-size: var(--font-subtitulo);
+  margin-top: 20px;
 }
 
 .nombre  h3 {
@@ -38,13 +41,16 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: -60px;
+    margin-top: -20px;
+    padding: 10px;
   }
 
   .nombre img {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border: 1px solid var(--catorce);
+    box-shadow: 0 0 10px var(--once);
+    margin-right: 20px;
   }
 
   .nombre-especialidad h2 {
@@ -65,8 +71,8 @@
 @media (min-width: 1200px) {
   .nombre {
     position: absolute;
-    top: 110px;
-    right: 40px;
+    top: 40px;
+    right: 20px;
 }
 
 .nombre img {
@@ -77,14 +83,14 @@
 
 .nombre h2 {
   font-size: var(--font-parrafo);
-  color: var(--ventiuno);
+  color: var(--venticuatro);
 }
 
 .nombre h3 {
   font-size: var(--font-chico);
-  color: var(--ventidos);
+  color: var(--venticinco);
   letter-spacing: .5rem;
   text-shadow: none;
-  border-bottom: 1px solid var(--venticinco);
+  border-bottom: 1px solid var(--venticuatro);
 }
 }

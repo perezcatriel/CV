@@ -80,3 +80,37 @@
     color: var(--once);
   }
 }
+
+
+@media (min-width:1200px) {
+  .educacion {
+    box-shadow:  0 0 10px var(--venticuatro);
+    width:300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .education h3 {
+		text-align: start;
+		color: var(--venticuatro);
+		text-shadow: 0 0 10px var(--venticinco);
+		font-size: var(--font-titulo-chico);
+	}
+
+  .educacion h4 {
+    color: var(--venticuatro);
+    text-shadow: 0 0 10px var(--ventidos);
+    font-size: var(--font-subtitulo);
+  }
+
+  .educacion p {
+    color: var(--venticuatro);
+    text-shadow: 0 0 10px var(--ventidos);
+  }
+
+  .educacion figcaption {
+    color: var(--venticinco);
+  }
+}

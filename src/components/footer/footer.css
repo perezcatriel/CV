@@ -12,11 +12,15 @@
 .footer-contactos a {
   font-family: var(--font-dos);
   font-size: var(--font-parrafo);
-  margin-right: 40px;
+  margin: 0px 40px;
   text-decoration: none;
   color: var(--dos);
   text-shadow: 0 0 10px var(--cinco);
   cursor: pointer;
+}
+
+footer img {
+  width: 40px;
 }
 
 @media (min-width: 700px) {
@@ -26,15 +30,19 @@
 
   .footer-contactos a {
     font-size: var(--font-subtitulo);
-    margin-bottom: 40px;
+    margin: 40px 40px;
     color: var(--quince);
     text-shadow: 0 0 10px var(--once);
+  }
+
+  footer img {
+    width: 60px;
   }
 }
 
 @media (min-width:1200px) {
   footer {
-    border-top: 1px solid var(--ventidos);
+    border-top: 1px solid var(--venticuatro);
   }
 
   footer figcaption {

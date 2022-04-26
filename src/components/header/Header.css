@@ -61,9 +61,9 @@ h1 {
   header {
     width: 50vw;
     padding: 10px;
-    margin: 0 20px 0;
+    margin: 0 15px 0;
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns:60px 1fr;
     grid-template-areas: "logo  titulo";
   }
 
@@ -72,7 +72,7 @@ h1 {
   }
 
   h1 {
-    color: var(--venticinco);
+    color: var(--venticuatro);
     text-shadow: 0 0 10px var(--venticuatro);
     grid-area: titulo;
   }

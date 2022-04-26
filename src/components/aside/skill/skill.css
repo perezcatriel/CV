@@ -102,3 +102,40 @@
     background-color: var(--once);
   }
 }
+
+@media (min-width:1200px) {
+  .skills h3 {
+		color: var(--venticuatro);
+		text-shadow: 0 0 10px var(--venticinco);
+	}
+
+  .skill h4 {
+    color: var(--venticuatro);
+    text-shadow: 0 0 10px var(--venticinco);
+  }
+
+  .barra-progreso {
+    width: 30vw;
+    background-color: var(--ventiuno);
+  }
+
+  #ingles {
+    background-color: var(--ventidos);
+  }
+
+  #portugues {
+    background-color: var(--ventidos);
+  }
+
+  #equipo {
+    background-color: var(--ventidos);
+  }
+
+  #empatia {
+    background-color: var(--ventidos);
+  }
+
+  #proactivo {
+    background-color: var(--ventidos);
+  }
+}
