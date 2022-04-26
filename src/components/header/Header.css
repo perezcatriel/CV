@@ -1,7 +1,7 @@
 header {
 	display: grid;
   grid-template-columns: 1fr;
-	grid-template-rows: 150px 50px 5px;
+	grid-template-rows: 150px ;
 	width: 100vw;
 	height: 150px;
 }
@@ -54,5 +54,30 @@ h1 {
     position:initial;
     width: 60px;
     height:60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    width: 50vw;
+    padding: 10px;
+    margin: 0 20px 0;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-areas: "logo  titulo";
+  }
+
+  header img {
+    grid-area: logo;
+  }
+
+  h1 {
+    color: var(--venticinco);
+    text-shadow: 0 0 10px var(--venticuatro);
+    grid-area: titulo;
+  }
+
+  .menu {
+    display: none;
   }
 }

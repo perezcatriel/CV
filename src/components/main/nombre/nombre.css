@@ -28,6 +28,7 @@
   color: var(--dos);
   text-shadow: 0 0 10px var(--cuatro);
   font-size: var(--font-parrafo);
+  text-align: center;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--dos);
 }
@@ -59,4 +60,31 @@
     text-shadow: 0 0 10px var(--doce);
     border-bottom: 1px solid var(--quince);
   }
+}
+
+@media (min-width: 1200px) {
+  .nombre {
+    position: absolute;
+    top: 110px;
+    right: 40px;
+}
+
+.nombre img {
+  width: 60px;
+  height: 60px;
+  display: none;
+}
+
+.nombre h2 {
+  font-size: var(--font-parrafo);
+  color: var(--ventiuno);
+}
+
+.nombre h3 {
+  font-size: var(--font-chico);
+  color: var(--ventidos);
+  letter-spacing: .5rem;
+  text-shadow: none;
+  border-bottom: 1px solid var(--venticinco);
+}
 }

@@ -31,3 +31,14 @@
     text-shadow: 0 0 10px var(--once);
   }
 }
+
+@media (min-width:1200px) {
+  footer {
+    border-top: 1px solid var(--ventidos);
+  }
+
+  footer figcaption {
+    color: var(--venticuatro);
+    text-shadow: 0 0 10px var(--ventiuno);
+  }
+}

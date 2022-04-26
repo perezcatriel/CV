@@ -43,6 +43,15 @@ nav a:hover {
 
 	nav a {
 		font-size: var(--font-parrafo);
-		color: var(--catorce);
+		color: var(--venticuatro);
+	}
+}
+
+@media (min-width: 1200px) {
+	nav {
+		width: 30vw;
+		position: absolute;
+		top: 105px;
+		margin-left: 50vw;
 	}
 }
