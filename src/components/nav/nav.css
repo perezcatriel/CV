@@ -2,8 +2,11 @@ nav {
   width:100vw;
 	height: 100vh;
   position: fixed;
+	top: 0;
+	padding-top: 80px;
+	z-index: 20;
+	opacity: .9;
 	display: none;
-	/* border-radius: 50%; */
 }
 
 nav ul {
@@ -34,6 +37,7 @@ nav a:hover {
 		margin: -110px auto 0;
 		width: 60vw;
 		height: auto;
+		padding-top: 0;
 	}
 
 	nav ul {
@@ -57,5 +61,18 @@ nav a:hover {
 
 	nav a {
 		color: var(--venticinco)
+	}
+
+	nav a:hover {
+		color: var(--venticuatro);
+	}
+
+	nav li {
+		transition: transform .5s ease-in-out;
+	}
+
+	nav li:hover {
+		transform: scale(1.2);
+		transition: transform .2s ease-in-out;
 	}
 }

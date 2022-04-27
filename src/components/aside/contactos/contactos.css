@@ -2,7 +2,7 @@
   display:none;
 }
 
-/* .contactos {
+.contactos {
   margin: 40px 40px 0;
 }
 
@@ -13,8 +13,4 @@
   letter-spacing: .25rem;
   color: var(--cuatro);
   text-shadow: 0 0 5px var(--uno);
-} */
-
-/* .contactos {
-  display: block;
-} */
+}

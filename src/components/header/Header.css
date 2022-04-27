@@ -30,6 +30,11 @@ h1 {
   border-radius: 50%;
   border: 1px solid var(--dos);
   box-shadow: 0 0 10px var(--cuatro);
+  z-index: 30;
+}
+
+.menu:hover {
+  opacity: .6;
 }
 
 

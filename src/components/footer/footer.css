@@ -19,6 +19,10 @@
   cursor: pointer;
 }
 
+.footer img:hover {
+  opacity: .5;
+}
+
 footer img {
   width: 40px;
 }

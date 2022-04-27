@@ -57,6 +57,11 @@
 		font-size: var(--font-titulo-chico);
 	}
 
+	.acerca-de h4 {
+		font-size: var(--font-subtitulo);
+		color: var(--venticuatro);
+	}
+
 	.acerca-de p {
 		color: var(--venticinco);
 font-size: var(--font-parrafo);
