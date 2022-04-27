@@ -13,12 +13,19 @@
 	font-size: var(--font-subtitulo);
 }
 
+.acerca-de h4 {
+	margin-top: 10px;
+	font-family: var(--font-dos);
+	font-size: var(--font-parrafo);
+	color: var(--cuatro);
+}
+
 .acerca-de p {
 	margin-top: 10px;
 	font-family: var(--font-uno);
 	color: var(--cinco);
 	font-size: var(--font-parrafo);
-	height: 200px;
+/* 	height: 200px; */
 	overflow: auto;
 }
 

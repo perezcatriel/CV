@@ -42,6 +42,62 @@
   font-size: var(font-chico);
 }
 
+.left {
+  /* background-color: var(--uno); */
+  width: 50px;
+  height: 180px;
+  opacity: .5;
+  position: absolute;
+ /*  left: -0px; */
+
+}
+
+.left img, .e-left img {
+  position: absolute;
+  top:35%;
+  left: -20px;
+  /* opacity: .2; */
+  background-color: var(--tres);
+  border-radius: 50%;
+  /* border: 1px solid var(uno);
+  box-shadow: 0 0 10px var(--cuatro); */
+}
+
+.right {
+  width: 50px;
+  height: 180px;
+  opacity: .5;
+  position: absolute;
+  right: 10px;
+  border-radius: 50%;
+}
+
+.right img, .e-right img {
+  position: absolute;
+  top:35%;
+  /* opacity: .2; */
+  background-color: var(--tres);
+}
+
+.e-left {
+  /* background-color: var(--uno); */
+  width: 50px;
+  height: 230px;
+  opacity: .5;
+  position: absolute;
+ /*  left: -0px; */
+ /* border-radius: 50%; */
+
+}
+
+.e-right {
+  width: 50px;
+  height: 230px;
+  opacity: .5;
+  position: absolute;
+  right: 10px;
+}
+
 @media (min-width: 700px) {
   .articulo {
     box-shadow:  0 0 10px var(--once);
