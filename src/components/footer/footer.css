@@ -4,6 +4,7 @@
 
 .footer-contactos {
   width: 80vw;
+  
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
@@ -12,7 +13,7 @@
 .footer-contactos a {
   font-family: var(--font-dos);
   font-size: var(--font-parrafo);
-  margin: 0px 40px;
+ /*  margin: 0px ; */
   text-decoration: none;
   color: var(--dos);
   text-shadow: 0 0 10px var(--cinco);
@@ -24,29 +25,30 @@
 }
 
 footer img {
-  width: 40px;
+  width: 60px;
 }
 
 @media (min-width: 700px) {
-  .footer-contactos {
+  /* .footer-contactos {
     margin: auto;
-  }
+  } */
 
   .footer-contactos a {
     font-size: var(--font-subtitulo);
-    margin: 40px 40px;
+   /*  margin: 40px 0px; */
     color: var(--quince);
     text-shadow: 0 0 10px var(--once);
   }
 
   footer img {
-    width: 60px;
+    width: 90px;
   }
 }
 
 @media (min-width:1200px) {
   footer {
     border-top: 1px solid var(--venticuatro);
+    padding-top: 80px;
   }
 
   footer figcaption {

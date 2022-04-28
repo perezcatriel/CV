@@ -2,6 +2,10 @@
   margin: 40px 40px 0;
 }
 
+article:hover {
+  opacity: .5;
+}
+
 .education h3 {
   font-family: var(--font-dos);
   font-size: var(--font-subtitulo);
@@ -22,6 +26,16 @@
   border: 1px solid var(--dos);
   border-radius: 10px;
   box-shadow: 0 0 10px var(--dos);
+  display: block;
+  width:250px;
+  height: 210px;
+}
+
+.platzi  {
+ display: flex;
+ flex-direction: column;
+ justify-content: end;
+
 }
 
 .educacion h4 {
@@ -58,6 +72,12 @@
     justify-content: space-evenly;
   }
 
+  article.educacion {
+    display: block;
+    width:350px;
+    height: 250px;
+  }
+
   .education h3 {
 		text-align: center;
 		color: var(--quince);
@@ -83,14 +103,15 @@
 
 
 @media (min-width:1200px) {
-  .educacion {
-    box-shadow:  0 0 10px var(--venticuatro);
-    width:300px;
-    height: 200px;
+  .education {
+    /* box-shadow:  0 0 10px var(--venticuatro); */
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
+  
 
   .education h3 {
 		text-align: start;

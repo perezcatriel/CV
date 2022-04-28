@@ -3,6 +3,7 @@
 	padding: 0;
   background-color: var(--tres);
 	scroll-behavior: smooth;
+	text-decoration: none;
 }
 
 :root {
@@ -96,7 +97,7 @@ background-color: transparent;
 
 	main .proyectos {
 		grid-area: main;
-		width: 50vw;
+		width: 60vw;
 		margin-left: 50px;
 	}
 
@@ -106,7 +107,7 @@ background-color: transparent;
 
 	main .education {
 		grid-area: main;
-		width: 50vw;
+		width: 60vw;
 	}
 
 	 aside {

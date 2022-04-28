@@ -34,33 +34,38 @@ nav a:hover {
 	nav {
 		display: block;
 		position: initial;
-		margin: -110px auto 0;
+		margin: -120px auto 0;
 		width: 60vw;
 		height: auto;
-		padding-top: 0;
+		padding: 10px 10px 0 90px;
+		background-color: transparent;
 	}
 
 	nav ul {
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
 	}
 
 	nav a {
 		font-size: var(--font-parrafo);
-		color: var(--venticuatro);
+		color: var(--catorce);
+		margin: auto 20px;
 	}
 }
 
 @media (min-width: 1200px) {
 	nav {
-		width: 30vw;
+		width: 40vw;
 		position: absolute;
 		top: 105px;
-		margin-left: 48vw;
+		margin-left: 33vw;
+background-color: transparent;
 	}
 
 	nav a {
-		color: var(--venticinco)
+		color: var(--venticinco);
+		
 	}
 
 	nav a:hover {
