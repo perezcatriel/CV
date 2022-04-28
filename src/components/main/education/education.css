@@ -26,17 +26,18 @@ article:hover {
   border: 1px solid var(--dos);
   border-radius: 10px;
   box-shadow: 0 0 10px var(--dos);
-  display: block;
+  /* display: block; */
   width:250px;
   height: 210px;
 }
 
-.platzi  {
+/* .platzi a {
  display: flex;
  flex-direction: column;
- justify-content: end;
+ justify-content: space-around;
+ align-content: space-between;
 
-}
+} */
 
 .educacion h4 {
   font-family: var(--font-dos);
@@ -110,8 +111,20 @@ article:hover {
     flex-direction: column;
     justify-content: space-between;
   }
+/* .educacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-  
+} */
+   /* .platzi p, .platzi figcaption, .platzi img  {
+   /*  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-top: 20px;
+   
+   } */
 
   .education h3 {
 		text-align: start;

@@ -22,9 +22,9 @@
   border: 1px solid var(--dos);
   border-radius: 10px;
   box-shadow: 0 0 10px var(--dos);
-  display: block;
+  /* display: block;
   width:250px;
-  height: 210px;
+  height: 210px; */
 }
 
 .articulo h4 {
@@ -139,11 +139,11 @@
 @media (min-width: 1200px) {
   .articulo {
     box-shadow:  0 0 10px var(--venticuatro);
-    width: 300px;
+    /* width: 300px;
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
   }
 
   .proyectos h3 {
