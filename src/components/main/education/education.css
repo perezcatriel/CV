@@ -29,6 +29,9 @@ article:hover {
   /* display: block; */
   width:250px;
   height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* .platzi a {

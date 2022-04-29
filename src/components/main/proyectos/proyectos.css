@@ -22,9 +22,11 @@
   border: 1px solid var(--dos);
   border-radius: 10px;
   box-shadow: 0 0 10px var(--dos);
-  /* display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width:250px;
-  height: 210px; */
+  height: 210px;
 }
 
 .articulo h4 {
@@ -48,7 +50,7 @@
 .left {
   background-color:transparent;
   width: 50px;
-  height: 180px;
+  height: 282px;
   position: absolute;
  /*  left: -0px; */
 }
@@ -70,7 +72,7 @@
 
 .right {
   width: 50px;
-  height: 180px;
+  height: 300px;
   /* opacity: .5; */
   background-color: transparent;
   position: absolute;
@@ -90,7 +92,7 @@
 .e-left {
   background-color: transparent;
   width: 50px;
-  height: 230px;
+  height: 282px;
   /* opacity: .5; */
   position: absolute;
  /*  left: -0px; */
@@ -100,7 +102,7 @@
 
 .e-right {
   width: 50px;
-  height: 230px;
+  height: 300px;
   /* opacity: .5; */
   background-color: transparent;
   position: absolute;
@@ -110,7 +112,11 @@
 @media (min-width: 700px) {
   .articulo {
     box-shadow:  0 0 10px var(--once);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+  
 
   article.articulo {
     display: block;
@@ -134,16 +140,22 @@
   .articulo figcaption {
     color: var(--once);
   }
+
+  .left, .right {
+    height: 350px;
+  }
+
+  .e-left, .e-right {
+    height: 370px;
+  }
 }
 
 @media (min-width: 1200px) {
   .articulo {
     box-shadow:  0 0 10px var(--venticuatro);
-    /* width: 300px;
-    height: 200px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .proyectos h3 {
