@@ -1,52 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    .container {
-      width: 600px;
-      height: 600px;
-      background-color: black;
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.container {
+				width: 600px;
+				height: 600px;
+				background-color: black;
+				border: 3px solid yellow;
+				border-radius: 50%;
+			}
 
-    }
+			.rectangulo-grande {
+				background-color: yellow;
+				width: 250px;
+				height: 50px;
+				position: absolute;
+				top: 275px;
+				left: 175px;
+        border-radius: 10px;
+			}
 
-    .rectangulo-grande {
-      background-color: yellow;
-      width: 250px;
-      height: 50px;
-      position: absolute;
-      top: 275px;
-      left: 175px;
-    }
+			#grande-uno {
+				animation-name: mov1;
+				/* animation-name: rotar; */
+				animation-duration: 5s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+				animation-direction: normal;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: none;
+			}
 
-    .triangulo {
-      background-color: yellow;
-      width: 30px;
-      height: 30px;
-      margin: 10px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="rectangulo-grande" id="grande-uno"></div>
-    <div class="rectangulo-grande" id="grande-dos"></div>
-    <div class="triangulo" ></div>
-    <div class="triangulo"></div>
-    <div class="triangulo"></div>
-    <div class="triangulo"></div>
-  </div>
+			#grande-dos {
+				animation-name: mov2;
 
-  <script>
-    const $rectangulo_uno = document.querySelector('#grande-uno');
-    const $rectangulo_dos = document.querySelector('#grande-dos');
+				animation-duration: 5s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+				animation-direction: normal;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: none;
+			}
 
+			@keyframes mov1 {
+				0% {
+					left: 200px;
+				}
+				5% {
+					left: 175px;
+				}
+				10% {
+					transform: rotate(-45deg);
+				}
+				50% {
+					transform: rotate(-45deg);
+				}
+				55% {
+					transform: rotate(0deg);
+				}
+			}
 
-    $rectangulo_uno.style.traslate(10)
+			@keyframes mov2 {
+				0% {
+					left: 150px;
+				}
+				5% {
+					left: 175px;
+				}
+				10% {
+					transform: rotate(45deg);
+				}
+				50% {
+					transform: rotate(45deg);
+				}
+				55% {
+					transform: rotate(0deg);
+				}
+			}
 
-  </script>
-</body>
+			.triangulo {
+				background-color: yellow;
+				width: 30px;
+				height: 30px;
+				margin: 10px;
+				position: absolute;
+        border-radius: 20%;
+			}
+
+			#uno {
+				animation-name: tres;
+				animation-duration: 5s;
+				animation-delay: 1s;
+				animation-iteration-count: infinite;
+				animation-direction: normal;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: none;
+			}
+
+			@keyframes uno {
+				0% {
+					left: 280px;
+					top: 280px;
+				}
+				10% {
+					left: 90px;
+					top: 280px;
+				}
+				/* 15% {left: 100px;top: 280px;} */
+
+				12% {
+					left: 150px;
+					top: 150px;
+				}
+
+				/*   35%{left: 120px; top: 190px} */
+
+				/*    45%{left: 270px; top: 145px;} */
+				/* 39%{left: ;top: ;} */
+				13% {
+					left: 280px;
+					top: 100px;
+				}
+				30% {
+					left: 280px;
+					top: 280px;
+				}
+			}
+
+			#dos {
+				animation-name: tres;
+				animation-duration: 5s;
+				animation-delay: .5s;
+				animation-iteration-count: infinite;
+				animation-direction: normal;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: none;
+			}
+
+			@keyframes dos {
+				0% {
+					left: 280px;
+					top: 280px;
+				}
+				10% {
+					left: 460px;
+					top: 280px;
+				}
+				/* 15% {left: 100px;top: 280px;} */
+
+				12% {
+					left: 400px;
+					top: 150px;
+				}
+
+				/*   35%{left: 120px; top: 190px} */
+
+				/*    45%{left: 270px; top: 145px;} */
+				/* 39%{left: ;top: ;} */
+				13% {
+					left: 280px;
+					top: 100px;
+				}
+				30% {
+					left: 280px;
+					top: 280px;
+				}
+				/* 50% {
+					left: 280px;
+					top: 280px;
+				} */
+			}
+
+			#tres {
+				animation-name: tres;
+				animation-duration: 5s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+				animation-direction: normal;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: none;
+			}
+
+			@keyframes tres {
+				0% {
+					left: 280px;
+					top: 280px;
+				}
+				11% {
+					left: 90px;
+					top: 280px;
+				}
+				12% {
+					left: 280px;
+					top: 100px;
+				}
+				13% {
+					left: 460px;
+					top: 280px;
+				}
+				14% {
+					left: 280px;
+					top: 460px;
+				}
+				15% {
+					left: 49px;
+					top: 280px;
+				}
+        16%{left: 280px;
+					top: 90px;}
+				30% {
+					left: 280px;
+					top: 280px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="rectangulo-grande" id="grande-uno"></div>
+			<div class="rectangulo-grande" id="grande-dos"></div>
+
+			<div class="triangulo" id="uno"></div>
+			<div class="triangulo" id="dos"></div>
+			<div class="triangulo" id="tres"></div>
+			<div class="triangulo" id="cuatro"></div>
+		</div>
+
+		<script>
+			const $rectangulo_uno = document.querySelector("#grande-uno");
+			const $rectangulo_dos = document.querySelector("#grande-dos");
+
+			$rectangulo_uno.style.traslate(10);
+		</script>
+	</body>
 </html>
