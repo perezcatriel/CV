@@ -2,11 +2,11 @@ function toggle() {
 	let $menu = document.querySelector(".contactos");
 
 	switch ($menu.style.display) {
-		case "none":
-			mostrar($menu);
+		case "block":
+			ocultar($menu);
 			break;
 		default:
-			ocultar($menu);
+			mostrar($menu);
 			break;
 	}
 }
