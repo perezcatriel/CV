@@ -14,7 +14,7 @@
 .contactos h3 {
 	font-size: var(--font-titulo-chico);
 	font-family: var(--font-uno);
-	letter-spacing: 1.5rem;
+	letter-spacing: 1rem;
 	text-align: center;
 	margin-top: 10vh;
 	color: var(--uno);
@@ -23,7 +23,14 @@
 .contacto-contenedor {
 	margin-left: 45vw;
 	margin-top: 5vh;
+	width: 60px;
+	height: 60px;
 }
+
+/* .contactos a {
+	width: 60px;
+	height: 60px;
+} */
 
 .contactos img {
 	width: 60px;
