@@ -23,12 +23,236 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@700&display=swap');
   </style>
+  <style>
+    
+
+    .rectangulo-grande {
+      background-color: var(--ventiuno);
+      width: 250px;
+      height: 50px;
+      position: absolute;
+      top: 275px;
+      left: 175px;
+      border-radius: 10px;
+    }
+
+    #grande-uno {
+      animation-name: mov1;
+      /* animation-name: rotar; */
+      animation-duration: 5s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: none;
+    }
+
+    #grande-dos {
+      animation-name: mov2;
+
+      animation-duration: 5s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: none;
+    }
+
+    @keyframes mov1 {
+      0% {
+        left: 200px;
+      }
+      5% {
+        left: 175px;
+      }
+      10% {
+        transform: rotate(-45deg);
+      }
+      50% {
+        transform: rotate(-45deg);
+      }
+      55% {
+        transform: rotate(0deg);
+      }
+    }
+
+    @keyframes mov2 {
+      0% {
+        left: 150px;
+      }
+      5% {
+        left: 175px;
+      }
+      10% {
+        transform: rotate(45deg);
+      }
+      50% {
+        transform: rotate(45deg);
+      }
+      55% {
+        transform: rotate(0deg);
+      }
+    }
+
+    .triangulo {
+      background-color: var(--venticinco);
+      width: 30px;
+      height: 10px;
+      margin: 10px;
+      position: absolute;
+      border-radius: 20%;
+    }
+
+    #uno {
+      animation-name: uno;
+      animation-duration: 5s;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: none;
+    }
+
+    @keyframes uno {
+      0% {
+        left: 280px;
+        top: 280px;
+      }
+      11% {
+        left: 90px;
+        top: 280px;
+      }
+      12% {
+        left: 280px;
+        top: 100px;
+      }
+      13% {
+        left: 460px;
+        top: 280px;
+      }
+      14% {
+        left: 280px;
+        top: 460px;
+      }
+      15% {
+        left: 49px;
+        top: 280px;
+      }
+      16%{left: 280px;
+        top: 90px;}
+      30% {
+        left: 275px;
+        top: 270px;
+      }
+    }
+
+    #dos {
+      animation-name: dos;
+      animation-duration: 5s;
+      animation-delay: .5s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: none;
+    }
+
+    @keyframes dos {
+      0% {
+        left: 280px;
+        top: 280px;
+      }
+      11% {
+        left: 90px;
+        top: 280px;
+      }
+      12% {
+        left: 280px;
+        top: 100px;
+      }
+      13% {
+        left: 460px;
+        top: 280px;
+      }
+      14% {
+        left: 280px;
+        top: 460px;
+      }
+      15% {
+        left: 49px;
+        top: 280px;
+      }
+      16%{left: 280px;
+        top: 90px;}
+      30% {
+        left: 275px;
+        top: 285px;
+      }
+    }
+
+    #tres {
+      animation-name: tres;
+      animation-duration: 5s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: none;
+    }
+
+    @keyframes tres {
+      0% {
+        left: 280px;
+        top: 280px;
+      }
+      11% {
+        left: 90px;
+        top: 280px;
+      }
+      12% {
+        left: 280px;
+        top: 100px;
+      }
+      13% {
+        left: 460px;
+        top: 280px;
+      }
+      14% {
+        left: 280px;
+        top: 460px;
+      }
+      15% {
+        left: 49px;
+        top: 280px;
+      }
+      16%{left: 280px;
+        top: 90px;}
+      30% {
+        left: 275px;
+        top: 300px;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <header>
     <img src="../src/assets/images/terminal.png" class="logo"></img>
+    
+    <!-- LOGO -->
+    <div class="loguito">
+      <div class="rectangulo-grande" id="grande-uno"></div>
+			<div class="rectangulo-grande" id="grande-dos"></div>
 
+			<div class="triangulo" id="uno"></div>
+			<div class="triangulo" id="dos"></div>
+			<div class="triangulo" id="tres"></div>
+    </div>
+			
+			
+	
+
+    
+    
     <h1 class="titulo">
       DEVELOPER WEB
     </h1>
