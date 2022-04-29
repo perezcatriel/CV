@@ -18,3 +18,9 @@ function mostrar($menu) {
 function ocultar($menu) {
 	$menu.style.display = "none";
 }
+
+window.scroll({
+  top: 100,
+  left: 100,
+  behavior: 'smooth'
+});
