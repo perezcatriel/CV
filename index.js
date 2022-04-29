@@ -1,10 +1,20 @@
+function toggle() {
+	let $menu = document.querySelector("nav");
 
-
-function mostrar() {
-	const $menu = document.querySelector("nav");
-  $menu.style.display = "block";
+	switch ($menu.style.display) {
+	case "none":
+		mostrar($menu);
+		break;
+	default:
+		ocultar($menu);
+		break;
+	}
 }
 
-function ocultar() {
-  $menu.style.display = "none";
+function mostrar($menu) {
+	$menu.style.display = "block";
+}
+
+function ocultar($menu) {
+	$menu.style.display = "none";
 }

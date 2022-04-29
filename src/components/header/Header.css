@@ -68,6 +68,7 @@ h1 {
   .menu {
     box-shadow: 0 0 10px var(--once);
     border: 1px solid var(--quince);
+    display: none;
   }
 }
 
